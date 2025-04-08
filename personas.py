@@ -3,3 +3,7 @@ class persona ():
         self.nombre =nombre
         self.apellido = apellido
         self.edad = edad
+
+    def saluda(self):
+        return f'Hola, soy {self.nombre}'
+    
