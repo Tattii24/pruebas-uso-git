@@ -5,5 +5,5 @@ class persona ():
         self.edad = edad
 
     def saluda(self):
-        return f'Hola, soy {self.nombre}'
+        return f'Hola, soy {self.nombre} {self.apellido}'
     
