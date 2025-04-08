@@ -4,7 +4,7 @@ class Perro():
         self.nombre = nombre
         self.raza = raza
         self.edad = edad
-
-    def ladrar (self):
-            return f'{"guau*10"}'
+    
+    def ladrar(self):
+        return 'guau'*10
     
